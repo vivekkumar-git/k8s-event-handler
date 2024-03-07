@@ -1,0 +1,8 @@
+# Name of the resource. Resource name must be in group/version/resource (G/V/R) format
+# resource name should be plural (e.g apps/v1/deployments, v1/pods)
+resources:
+  - kind: rds.aws.upbound.io/v1beta1/instances   
+           
+# watch multiple namespaces (or use **all** to watch all namespaces) 
+namespaces:
+  - all
